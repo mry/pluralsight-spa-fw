@@ -1,0 +1,18 @@
+{
+  "name": "fw",
+  "version": "0.0.0",
+  "description": "Pluralsight course",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mattias Rylander <mattias.rylander@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-concat": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-serve": "^0.1.6"
+  }
+}
