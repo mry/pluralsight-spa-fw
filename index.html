@@ -1,14 +1,30 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
     <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="app/app.css" rel="stylesheet" />
+    <link href="ext-modules/psFramework/psFramework.css" rel="stylesheet" />
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/angular/angular.min.js"></script>
-</head>
-<body>
 
+    <script src="ext-modules/psMenu/psMenuModule.js"></script>
+
+
+    <script src="ext-modules/psDashboard/psDashboardModule.js"></script>
+
+
+    <script src="ext-modules/psFramework/psFrameworkModule.js"></script>
+    <script src="ext-modules/psFramework/psFrameworkController.js"></script>
+    <script src="ext-modules/psFramework/psFrameworkDirective.js"></script>
+
+    <script src="app/appModule.js"></script>
+
+</head>
+<body class="container-fluid">
+    <ps-framework></ps-framework>
 </body>
 </html>
