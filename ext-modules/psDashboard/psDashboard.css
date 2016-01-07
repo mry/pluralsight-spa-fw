@@ -1,5 +1,6 @@
 ﻿
 ps-dashboard {
+    font-size: 44px;
     margin: 0;
     width: 100%;
 }
@@ -7,6 +8,7 @@ ps-dashboard {
 .gridster .gridster-item {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     background: white;
+    overflow: hidden;
 }
 
 .ps-widget-header {
@@ -32,6 +34,10 @@ ps-dashboard {
     margin-top: 3px;
     padding-top: 1px;
     padding-bottom: 1px;
+}
+
+.ps-widget-body {
+    position: relative;
 }
 
 .ps-dashboard-header {

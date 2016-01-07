@@ -14,7 +14,7 @@ angular.module('app').directive('wwaDashboard', [function () {
                 margins: [20, 20],
                 outerMargin: false,
                 pushing: true,
-                floating: true,
+                floating: false,
                 swapping: false
             };
 
@@ -23,15 +23,36 @@ angular.module('app').directive('wwaDashboard', [function () {
                     title: 'First',
                     sizeX: 3,
                     sizeY: 3,
+                    minSizeX: 2,
+                    minSizeY: 2,
                     row: 0,
-                    col: 0
+                    col: 0,
+                    template: '<wwa-temperature></wwa-temperature>',
+                    widgetSettings: {
+                        id: 1000
+                    }
                 },
                 {
                     title: 'Second',
-                    sizeX: 2,
-                    sizeY: 4,
+                    sizeX: 5,
+                    sizeY: 3,
                     row: 0,
-                    col: 5
+                    col: 5,
+                    template: '<wwa-employee></wwa-employee>',
+                    widgetSettings: {
+                        id: 5001
+                    }
+                },
+                {
+                    title: 'Third',
+                    sizeX: 5,
+                    sizeY: 3,
+                    row: 3,
+                    col: 5,
+                    template: '<wwa-inventory></wwa-inventory>',
+                    widgetSettings: {
+                        id: 1002
+                    }
                 }
             ];
         }
