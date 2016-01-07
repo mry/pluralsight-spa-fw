@@ -13,7 +13,9 @@
     "test",
     "tests"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "~3.9.0"
+  },
   "dependencies": {
     "angular": "angularjs#~1.4.8",
     "bootstrap": "~3.3.6",

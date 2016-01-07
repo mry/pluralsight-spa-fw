@@ -1,6 +1,6 @@
 {
   "name": "fw",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pluralsight course",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,10 @@
     "grunt-contrib-jshint": "^0.11.3",
     "grunt-contrib-uglify": "^0.11.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-serve": "^0.1.6"
+    "grunt-serve": "^0.1.6",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-strip-line": "0.0.1"
   }
 }
