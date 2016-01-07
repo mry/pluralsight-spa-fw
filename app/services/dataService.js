@@ -126,7 +126,7 @@ angular.module('app').factory('dataService',
                 if (locations[i].id == id)
                     return locations[i];
             return undefined;
-        }, 2000);
+        }, 300);
 
         return timeout;
     };

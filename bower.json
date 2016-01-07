@@ -24,6 +24,7 @@
     "angular-gridster": "~0.13.5",
     "angular-ui": "~0.4.0",
     "angular-ui-bootstrap": "~0.14.3",
-    "angular-bootstrap": "~0.14.3"
+    "angular-bootstrap": "~0.14.3",
+    "ngstorage": "~0.3.10"
   }
 }
